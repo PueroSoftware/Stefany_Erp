@@ -1,2 +1,3 @@
 Stefany_Erp
-Proyecto con html,css js y php para el proyecto de una Tienda de Jabones y velas artesanales con la posibilidad de una tienda online
+Proyecto python con Django 6 ERP-Tienda Electronica con: 
+* Object-storage R2 de clouflare
