@@ -1,0 +1,47 @@
+# ===== Python / Django =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
+db.sqlite3
+media/
+staticfiles/
+
+# ===== Node / React Native =====
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.expo/
+.expo-shared/
+*.log
+*.local
+*.tsbuildinfo
+
+# ===== Archivos temporales / Sistema =====
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.swp
+*~
+
+# ===== Claude IDE =====
+.zed/
+
+# ===== Expo / Metro =====
+dev-client-build/
+web-build/
+
+# ===== Secretos / Mercado =====
+*.pem
+*.key
+*.crt
+
+# ===== Variables de entorno =====
+*.env
+*.env.*

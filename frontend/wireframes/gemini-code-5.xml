@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diseno_web>
+  <informacion_general>
+    <estilo_visual>Ilustrativo, vectorial, artístico y orgánico con estética artesanal.</estilo_visual>
+    <paleta_colores>
+      <fondo_principal>Blanco puro (#FFFFFF) y crema muy suave (#FAF8F5)</fondo_principal>
+      <colores_secundarios>Verde sabio, amarillo miel, naranja cítrico, rosa floral y tono café vegetal</colores_secundarios>
+      <barra_inferior>Gris oscuro / negro (#1A1A1A)</barra_inferior>
+    </paleta_colores>
+    <tipografia>Estilo manuscrito / orgánico para títulos dentro de tarjetas y tipografía sans-serif limpia para botones UI.</tipografia>
+  </informacion_general>
+
+  <estructura_interfaz>
+    <!-- Encabezado de la página -->
+    <encabezado>
+      <posicion>Superior fija</posicion>
+      <elementos>
+        <navegacion_superior>
+          <item tipo="icono_menu">Tres puntos o selector en esquina superior derecha</item>
+          <item tipo="texto_central">Menú de navegación principal centrado con enlaces de sección</item>
+        </navegacion_superior>
+      </elementos>
+    </encabezado>
+
+    <!-- Cuerpo principal -->
+    <bloque_contenido>
+      
+      <!-- Fila 1: Grid de Categorías Destacadas -->
+      <seccion id="categorias_destacadas">
+        <disposicion>Rejilla horizontal de 5 columnas iguales (1fr cada una) con bordes finos y fondo claro.</disposicion>
+        <tarjetas_categoria cantidad="5">
+          <tarjeta posicion="1">
+            <fondo>Beige / Crema claro</fondo>
+            <marco_ilustracion>Insignia/escudo decorativo en forma de etiqueta vintage dorada con borde beige.</marco_ilustracion>
+            <contenido_grafico>Ilustración abstracta en tono rojo/rosa.</contenido_grafico>
+            <pie_tarjeta>Píldora/botón pequeño de color gris claro en la esquina inferior izquierda.</pie_tarjeta>
+          </tarjeta>
+
+          <tarjeta posicion="2">
+            <fondo>Verde menta / Mueble claro</fondo>
+            <marco_ilustracion>Insignia dorada vintage con fondo verde claro.</marco_ilustracion>
+            <contenido_grafico>Bloque de jabón o tableta tono café/chocolate.</contenido_grafico>
+            <pie_tarjeta>Píldora de acción pequeña en la esquina inferior izquierda.</pie_tarjeta>
+          </tarjeta>
+
+          <tarjeta posicion="3">
+            <fondo>Verde menta claro</fondo>
+            <marco_ilustracion>Insignia decorativa circular/ovalada con fondo verde.</marco_ilustracion>
+            <contenido_grafico>Conjunto de pastillas de jabón verde oliva y envases botánicos.</contenido_grafico>
+            <pie_tarjeta>Píldora pequeña de selección en base izquierda.</pie_tarjeta>
+          </tarjeta>
+
+          <tarjeta posicion="4">
+            <fondo>Verde menta claro</fondo>
+            <marco_ilustracion>Insignia decorativa dorada con fondo verde claro.</marco_ilustracion>
+            <contenido_grafico>Variedad de jabones artesanales en tonos crema, verde y beige.</contenido_grafico>
+            <pie_tarjeta>Píldora de selección pequeña en base izquierda.</pie_tarjeta>
+          </tarjeta>
+
+          <tarjeta posicion="5">
+            <fondo>Beige / Crema claro</fondo>
+            <marco_ilustracion>Insignia decorativa vintage dorada.</marco_ilustracion>
+            <contenido_grafico>Tres formas orgánicas/jabones en tonos café, verde y gris.</contenido_grafico>
+            <pie_tarjeta>Píldora pequeña de selección en base izquierda.</pie_tarjeta>
+          </tarjeta>
+        </tarjetas_categoria>
+      </seccion>
+
+      <!-- Fila 2: Carrusel / Banner de Productos -->
+      <seccion id="carrusel_productos">
+        <disposicion>Desplazamiento horizontal (Carrusel) compuesto por tarjetas horizontales de esquinas redondeadas (border-radius alto).</disposicion>
+        <tarjetas_banner cantidad_visibles="4">
+          <banner_tarjeta posicion="1_parcial_izquierda">
+            <estilo_imagen>Ilustración botánica detallada de rosas y pétalos de color rosa vibrante.</estilo_imagen>
+            <superposicion>Etiqueta semitransparente estilo cristal esmerilado en la base inferior.</superposicion>
+          </banner_tarjeta>
+
+          <banner_tarjeta posicion="2">
+            <estilo_imagen>Composición de miel, maracuyá / fruta de la pasión y jabón artesanal amarillo brillante.</estilo_imagen>
+            <superposicion>
+              <efecto>Efecto Glassmorphism (cristal esmerilado translúcido) bordeando la esquina inferior.</efecto>
+              <texto>Frutal y dulce</texto>
+            </superposicion>
+          </banner_tarjeta>
+
+          <banner_tarjeta posicion="3">
+            <estilo_imagen>Rodajas de naranja, frascos de aceites esenciales y jabón en tonos naranjas/cítricos.</estilo_imagen>
+            <superposicion>
+              <efecto>Efecto Glassmorphism translúcido en la base.</efecto>
+              <texto>Cítrico fresco</texto>
+            </superposicion>
+          </banner_tarjeta>
+
+          <banner_tarjeta posicion="4">
+            <estilo_imagen>Flores blancas tipo margarita, manzanilla y lavanda sobre bloque de jabón artesanal claro.</estilo_imagen>
+            <superposicion>
+              <efecto>Efecto Glassmorphism translúcido en la base.</efecto>
+              <texto>Flora ligera</texto>
+            </superposicion>
+          </banner_tarjeta>
+        </tarjetas_banner>
+
+        <!-- Controles del carrusel -->
+        <controles_desplazamiento>
+          <barra_navegacion>Barra de desplazamiento horizontal centrada debajo de la galería con indicador de posición circular.</barra_navegacion>
+        </controles_desplazamiento>
+      </seccion>
+
+    </bloque_contenido>
+
+    <!-- Barra de estado o pie flotante -->
+    <pie_pagina>
+      <estilo>Barra horizontal oscura e integrada en la parte inferior de la ventana visual.</estilo>
+      <elementos>
+        <icono_marca posicion="izquierda">Logotipo o ícono circular verde y negro.</icono_marca>
+        <accesos_directos posicion="centro">Múltiples íconos de acceso rápido en un contenedor oscuro separado.</accesos_directos>
+        <indicadores_sistema posicion="derecha">Indicador de hora y accesos de configuración.</indicadores_sistema>
+      </elementos>
+    </pie_pagina>
+  </estructura_interfaz>
+</diseno_web>
